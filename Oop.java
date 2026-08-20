@@ -15,8 +15,8 @@ class Person {
     Person() {}
 
     // Behaviours
-    public void talk() {
-        System.out.println(this.name + " is " + this.age + " years old");
+    public void introduce() {
+        System.out.println(this.name + " is " + this.age + " years old...");
     }
 
 }
@@ -26,12 +26,12 @@ public class Oop {
         Person[] people = {
             new Person("Mary", 120),
             new Person("Ben", 1),
-            new Person("John"),
+            new Person("Ben"),
             new Person()
         };
 
         for (Person person : people) {
-            person.talk();
+            person.introduce();
         }
     }
 }
