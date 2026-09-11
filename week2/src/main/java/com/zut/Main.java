@@ -6,10 +6,10 @@ public class Main {
         BankAccount jacobsAccount = new BankAccount();
 
         jacobsAccount.accountHolder = "Jacob";
-        jacobsAccount.balance = 100;
+        jacobsAccount.balance = 1;
 
         System.out.println("Before Deposit: " + jacobsAccount.balance);
-        jacobsAccount.deposit(100);
+        jacobsAccount.deposit(1000);
         System.out.println("After Deposit: " + jacobsAccount.balance);
     }
 }
