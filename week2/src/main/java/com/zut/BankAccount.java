@@ -2,7 +2,7 @@ package com.zut;
 
 public class BankAccount {
     // Attributes - instance variables - data
-    String accountHolder;
+    public String accountHolder;
     public double balance;
 
     // State or behaviour
@@ -10,8 +10,9 @@ public class BankAccount {
         this.balance = this.balance + ammount;
     }
 
-    void withdraw(double ammount) {
-        if (ammount > this.balance) {
+    public void withdraw(double ammount) {
+       
+        if (ammount > balance) {
             System.out.println("Insufficient funds...");
             return;
         }

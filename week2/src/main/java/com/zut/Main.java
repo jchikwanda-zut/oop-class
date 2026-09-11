@@ -2,8 +2,9 @@ package com.zut;
 
 public class Main {
     public static void main(String[] args) {
-        BankAccount jacobsAccount = new BankAccount(); // instantiation
-        
+
+        BankAccount jacobsAccount = new BankAccount();
+
         jacobsAccount.accountHolder = "Jacob";
         jacobsAccount.balance = 100;
 
